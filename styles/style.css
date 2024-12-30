@@ -17,7 +17,6 @@
   font-variation-settings: 'wght' var(--font-weight-regular);
   display: flex;
   flex-direction: column;
-  gap: 100px;
   align-items: center;
   font-size: 18px;
   margin-block: 100px;
@@ -41,6 +40,7 @@
   justify-content: center;
   font-family: var(--font-family-accent), fantasy;
   background-color: var(--bg-color);
+  margin-block-end: 100px;
 }
 
 .logo {
@@ -209,7 +209,7 @@
 
 .like-icon:active .main-body {
   fill: var(--heart-main-color);
-  transition: fill 0.3s linear;
+  transition: fill 0.3s 0.05s linear;
 }
 
 .like-icon.is-liked .main-body {
